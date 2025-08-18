@@ -10,6 +10,9 @@
   <br />
 </div>
 
+<div align="center">
+  <img height="300" alt="Fun coding GIF" src="https://media.giphy.com/media/heIX5HfWgEYlW/giphy.gif" style="border-radius: 10px; margin-bottom: 30px;" />
+</div>
 
 
 Welcome to my GitHub page! 👋 I'm a passionate frontend developer based in vibrant Mexico City 🇲🇽, dedicated to crafting sleek, user-friendly web solutions that blend stunning design with cutting-edge technology. I love diving into UI/UX design, building immersive frontend experiences with **React** and **Next.js**, exploring fullstack architectures, and integrating AI to make apps smarter and more intuitive. 🌈
