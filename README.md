@@ -49,7 +49,7 @@ Below is my toolkit for crafting sleek, user-friendly, and innovative web soluti
 [![My Skills](https://skillicons.dev/icons?i=git,github,bitbucket)](https://skillicons.dev)
 
 ### 🛠️ Development Tools
-[![My Skills](https://skillicons.dev/icons?i=webpack)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=webpack,docker)](https://skillicons.dev)
 
 ## 📂 Projects
 
