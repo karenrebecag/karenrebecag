@@ -94,7 +94,7 @@ Here are some of my standout projects, showcasing my love for frontend developme
 </p>
 </td>
 <td align="center">
-<a href="https://github.com/Kayoh26">
+<a href="https://github.com/karenrebecag">
 <strong>Explore my GitHub</strong>
 <br />
 <br />
