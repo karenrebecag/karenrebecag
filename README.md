@@ -56,16 +56,6 @@ Below is my toolkit for crafting sleek, user-friendly, and innovative web soluti
 ### 🛠️ Development Tools
 [![My Skills](https://skillicons.dev/icons?i=webpack,docker)](https://skillicons.dev)
 
-## 📂 Projects
-
-Here are some of my standout projects, showcasing my love for frontend development, design, and AI integration:
-
-- **[what-can-i-order](https://github.com/Kayoh26/what-can-i-order)**: FEWD 03-18-19 Final Project (JavaScript). A fun app to help decide what to order! 🍔
-- **[Capstone](https://github.com/Team-111/Capstone)**: Team project (JavaScript). Collaborative effort building a dynamic web app. 🤝
-- **[pikross](https://github.com/ksantiago/pikross)**: Picross game application (JavaScript). A pixel puzzle game with addictive gameplay! 🎮
-- **[What the Duck?](https://what-da-duck.herokuapp.com)**: Mock e-commerce site for customizing rubber ducks, built with Node.js, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS. Quack-tastic customization! 🦆
-
-(Stay tuned for my AI-powered task management system with real-time chat, sentiment analysis, and dynamic guest links—coming soon! 🤖)
 
 ## 📊 Stats
 
