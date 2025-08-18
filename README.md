@@ -1,21 +1,14 @@
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=0a85ec&center=false&multiline=true&width=900&size=40&lines=Hello,+World!++I'm+Karen+++++++++++)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=0a85ec&center=false&multiline=true&width=900&size=40&lines=Hello,+World!++🌟I'm+Karen+++++++++++)](https://git.io/typing-svg)
 
-Frontend Developer based in New York, dedicated to building sleek, user-friendly web solutions with JavaScript frameworks like React and Vue.
+Welcome to my GitHub page! 👋 I'm a passionate frontend developer based in vibrant Mexico City 🇲🇽, dedicated to crafting sleek, user-friendly web solutions that blend stunning design with cutting-edge technology. I love diving into UI/UX design, building immersive frontend experiences, exploring fullstack architectures, and integrating AI to make apps smarter and more intuitive. 🌈
 
-Welcome to my GitHub page!.
+Here, you'll find my public projects and repositories—feel free to explore, star, or fork them! If you have questions, ideas for collaboration, or just want to chat about tech, design, or AI, don't hesitate to reach out. Thanks for visiting! 💬
 
-Here you can find all of my public projects and repositories. Feel free to explore and don't hesitate to reach out if you have any questions or would like to collaborate. Thank you for visiting!
 
 ### Tech Stack:
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,react,vue,nextjs,html,css,redux,nodejs,express,postgres,firebase,jquery)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,react,nextjs,vue,html,css,redux,jquery,sass,tailwind,bootstrap,nodejs,express,py,fastapi,postgres,firebase,mongodb,redis,mysql,sqlite,cassandra,tensorflow,pytorch,threejs,framermotion,gsap,vercel,netlify,githubactions,sentry,wordpress,webflow,framer,strapi,sanity,ps,git,github,bitbucket,webpack,figma,sketch)](https://skillicons.dev)
 
-### Projects
-
-- **[what-can-i-order](https://github.com/Kayoh26/what-can-i-order)**: FEWD 03-18-19 Final Project (JavaScript).
-- **[Capstone](https://github.com/Team-111/Capstone)**: Team project (JavaScript).
-- **[pikross](https://github.com/ksantiago/pikross)**: Picross game application (JavaScript).
-- **[What the Duck?](https://what-da-duck.herokuapp.com)**: Mock e-commerce site for customizing rubber ducks, built with Node.js, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS.
 
 ### Stats
 
@@ -27,6 +20,5 @@ Here you can find all of my public projects and repositories. Feel free to explo
 
 ### Contact
 
-- Email: k.ortiz026@gmail.com
-- LinkedIn: [Karen Ortiz](https://www.linkedin.com/in/kortiz1)
-- GitHub: [Kayoh26](https://github.com/Kayoh26)
+- Email: karen.ortizg@yahoo.com
+- LinkedIn: www.linkedin.com/in/karen-rebeca-ortiz-b5a860282
