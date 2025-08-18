@@ -1,9 +1,18 @@
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=0a85ec&center=false&multiline=true&width=900&size=40&lines=Hello,+World!++I'm+🌟Karen+++++++++++)](https://git.io/typing-svg)
+# 🌟 Hello, I'm Karen! | Frontend & Fullstack Developer 🚀
 
-Welcome to my GitHub page! 👋 I'm a passionate frontend developer based in vibrant Mexico City 🇲🇽, dedicated to crafting sleek, user-friendly web solutions that blend stunning design with cutting-edge technology. I love diving into UI/UX design, building immersive frontend experiences, exploring fullstack architectures, and integrating AI to make apps smarter and more intuitive. 🌈
+<!-- Hero Header -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/welcome.png" style="max-width: 100%;" alt="Welcome to Karen's GitHub Profile" />
+  <br />
+  <br />
+  <img height="50" alt="My name is Karen and I love crafting UI/UX and coding with React and AI" src="https://readme-typing-svg.herokuapp.com?color=0a85ec&center=true&width=600&size=30&lines=My+name+is+Karen;UI%2FUX+Designer+%26+Frontend+Dev;Passionate+about+React,+AI,+and+Animations" />
+  <br />
+  <br />
+</div>
+
+Welcome to my GitHub page! 👋 I'm a passionate frontend developer based in vibrant Mexico City 🇲🇽, dedicated to crafting sleek, user-friendly web solutions that blend stunning design with cutting-edge technology. I love diving into UI/UX design, building immersive frontend experiences with **React** and **Next.js**, exploring fullstack architectures, and integrating AI to make apps smarter and more intuitive. 🌈
 
 Here, you'll find my public projects and repositories—feel free to explore, star, or fork them! If you have questions, ideas for collaboration, or just want to chat about tech, design, or AI, don't hesitate to reach out. Thanks for visiting! 💬
-
 
 ## 🛠️ My Tech Stack
 
@@ -42,15 +51,68 @@ Below is my toolkit for crafting sleek, user-friendly, and innovative web soluti
 ### 🛠️ Development Tools
 [![My Skills](https://skillicons.dev/icons?i=webpack)](https://skillicons.dev)
 
-### Stats
+## 📂 Projects
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kayoh26&theme=nord&layout=compact)
+Here are some of my standout projects, showcasing my love for frontend development, design, and AI integration:
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kayoh26&theme=nord)
+- **[what-can-i-order](https://github.com/Kayoh26/what-can-i-order)**: FEWD 03-18-19 Final Project (JavaScript). A fun app to help decide what to order! 🍔
+- **[Capstone](https://github.com/Team-111/Capstone)**: Team project (JavaScript). Collaborative effort building a dynamic web app. 🤝
+- **[pikross](https://github.com/ksantiago/pikross)**: Picross game application (JavaScript). A pixel puzzle game with addictive gameplay! 🎮
+- **[What the Duck?](https://what-da-duck.herokuapp.com)**: Mock e-commerce site for customizing rubber ducks, built with Node.js, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS. Quack-tastic customization! 🦆
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Kayoh26.Kayoh26)
+(Stay tuned for my AI-powered task management system with real-time chat, sentiment analysis, and dynamic guest links—coming soon! 🤖)
 
-### Contact
+## 📊 Stats
 
-- Email: karen.ortizg@yahoo.com
-- LinkedIn: www.linkedin.com/in/karen-rebeca-ortiz-b5a860282
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kayoh26&theme=nord&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kayoh26&theme=nord" alt="GitHub Streak" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Kayoh26.Kayoh26" alt="Visitor Badge" />
+</div>
+
+<!-- Social Links -->
+<table width="100%" align="center">
+<tr>
+<td align="center">
+<a href="https://www.linkedin.com/in/karen-rebeca-ortiz-b5a860282">
+<strong>Connect on LinkedIn</strong>
+<br />
+<br />
+<p>
+<img height="80" alt="LinkedIn" src="https://media.giphy.com/media/l41lU9kVbm0U9b5AI/giphy.gif">
+</a>
+</p>
+</td>
+<td align="center">
+<a href="mailto:karen.ortizg@yahoo.com">
+<strong>Send me an Email</strong>
+<br />
+<br />
+<p>
+<img height="80" alt="Email" src="https://media.giphy.com/media/j3cPy8m4WjaQOboMZn/giphy.gif">
+</a>
+</p>
+</td>
+<td align="center">
+<a href="https://github.com/Kayoh26">
+<strong>Explore my GitHub</strong>
+<br />
+<br />
+<p>
+<img height="80" alt="GitHub" src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif">
+</a>
+</p>
+</td>
+</tr>
+</table>
+
+<!-- Guestbook -->
+<div align="center">
+  <a href="https://github.com/Kayoh26/Kayoh26/issues/new"><img src="https://readme-typing-svg.herokuapp.com?color=ff69b4&center=true&width=300&size=24&lines=Sign+my+Guestbook!+📖" alt="Sign my Guestbook" /></a>
+</div>
+
+| Name | Date | Message |
+|---|---|---|
+| <a href="https://github.com/example"><img width="24" src="https://avatars.githubusercontent.com/u/12345678?s=24" alt="example" /> example</a> | 8/18/2025, 11:47:00 AM | Hola from Mexico City! Loving your profile! 🇲🇽 |
+
+<!-- Footer
