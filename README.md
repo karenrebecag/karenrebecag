@@ -79,7 +79,7 @@ Here are some of my standout projects, showcasing my love for frontend developme
 <br />
 <br />
 <p>
-<img height="80" alt="LinkedIn" src="https://media.giphy.com/media/l41lU9kVbm0U9b5AI/giphy.gif">
+<img height="80" alt="LinkedIn" src="[https://media.giphy.com/media/l41lU9kVbm0U9b5AI/giphy.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHByb2o5bWhsOHdpemlwdWFjYW51M3l5dWM5aDQ2eGtqbzNwbW9rZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3PpTYXF9cSgn2yCiIf/giphy.gif)">
 </a>
 </p>
 </td>
@@ -89,7 +89,7 @@ Here are some of my standout projects, showcasing my love for frontend developme
 <br />
 <br />
 <p>
-<img height="80" alt="Email" src="https://media.giphy.com/media/j3cPy8m4WjaQOboMZn/giphy.gif">
+<img height="80" alt="Email" src="[https://media.giphy.com/media/j3cPy8m4WjaQOboMZn/giphy.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamxwOXhlbmhyYWN6emt4Nm1icm56MTNrbWIyejRxM3VxNmlpdjM0MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/aOften89vRbG/giphy.gif)">
 </a>
 </p>
 </td>
@@ -99,20 +99,16 @@ Here are some of my standout projects, showcasing my love for frontend developme
 <br />
 <br />
 <p>
-<img height="80" alt="GitHub" src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif">
+<img height="80" alt="GitHub" src="[https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanZuOGtzMGc1cGMwdXpqamdpbzQwMnh4N3NxNWw2Ymgxc3pvdWtwaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/NytMLKyiaIh6VH9SPm/giphy.gif)">
 </a>
 </p>
 </td>
 </tr>
 </table>
 
-<!-- Guestbook -->
+<!-- Portfolio -->
 <div align="center">
-  <a href="https://github.com/Kayoh26/Kayoh26/issues/new"><img src="https://readme-typing-svg.herokuapp.com?color=ff69b4&center=true&width=300&size=24&lines=Sign+my+Guestbook!+📖" alt="Sign my Guestbook" /></a>
+  <a href="https://www.karenortiz.space/"><img src="https://readme-typing-svg.herokuapp.com?color=ff69b4&center=true&width=300&size=24&lines=Check+out+my+Portfolio!+📖" alt="Check out my Portfolio" /></a>
 </div>
-
-| Name | Date | Message |
-|---|---|---|
-| <a href="https://github.com/example"><img width="24" src="https://avatars.githubusercontent.com/u/12345678?s=24" alt="example" /> example</a> | 8/18/2025, 11:47:00 AM | Hola from Mexico City! Loving your profile! 🇲🇽 |
 
 <!-- Footer
