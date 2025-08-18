@@ -10,7 +10,6 @@
   <br />
 </div>
 
-[<img height="80" alt="GitHub" src="https://media.giphy.com/media/NytMLKyiaIh6VH9SPm/giphy.gif" />](https://giphy.com/embed/heIX5HfWgEYlW" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-laptop-document-heIX5HfWgEYlW)
 
 
 Welcome to my GitHub page! 👋 I'm a passionate frontend developer based in vibrant Mexico City 🇲🇽, dedicated to crafting sleek, user-friendly web solutions that blend stunning design with cutting-edge technology. I love diving into UI/UX design, building immersive frontend experiences with **React** and **Next.js**, exploring fullstack architectures, and integrating AI to make apps smarter and more intuitive. 🌈
