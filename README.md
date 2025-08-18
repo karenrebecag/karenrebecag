@@ -48,7 +48,7 @@ Below is my toolkit for crafting sleek, user-friendly, and innovative web soluti
 [![My Skills](https://skillicons.dev/icons?i=wordpress,webflow,framer,strapi,sanity)](https://skillicons.dev)
 
 ### 🖼️ Digital Design
-[![My Skills](https://skillicons.dev/icons?i=ps)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=ps,ai,figma)](https://skillicons.dev)
 
 ### 📦 Version Control
 [![My Skills](https://skillicons.dev/icons?i=git,github,bitbucket)](https://skillicons.dev)
