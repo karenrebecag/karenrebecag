@@ -1,5 +1,6 @@
+<div align="center">
 # 🌟 Hello, I'm Karen! 🚀
-
+<br />
 <!-- Hero Header -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/welcome.png" style="max-width: 100%;" alt="Welcome to Karen's GitHub Profile" />
@@ -64,19 +65,6 @@ I'm drawn to products that care about **craft**. Not just "does it work" but "do
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kayoh26&show_icons=true&theme=nord&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kayoh26&theme=nord&layout=compact&hide_border=true" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kayoh26&theme=nord&hide_border=true" alt="GitHub Streak" />
-</div>
-
----
-
 ## 📬 Let's connect
 
 I'm currently **open to work** — North America & LATAM, remote or hybrid.
@@ -85,10 +73,7 @@ I'm currently **open to work** — North America & LATAM, remote or hybrid.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Karen%20Rebeca%20Ortiz-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karen-rebeca-ortiz-b5a860282)
 [![Portfolio](https://img.shields.io/badge/Portfolio-karenortiz.space-ff69b4?style=for-the-badge&logo=vercel&logoColor=white)](https://karenortiz.space)
-[![Email](https://img.shields.io/badge/Email-k.ortiz026@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:k.ortiz026@gmail.com)
+[![Email](https://img.shields.io/badge/Email-k.ortiz026@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:karenrortizg@gmail.com)
 
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=ff69b4&center=true&width=400&size=18&lines=Design+Engineer+%40+Mexico+City;Open+to+work+%F0%9F%9A%80;Let's+build+something+great" />
-</div>
