@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'assets/art.json'
+      - 'assets/meslo-subset.woff2'
 
 permissions:
   contents: write
