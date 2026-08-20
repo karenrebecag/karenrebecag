@@ -102,6 +102,19 @@ export function buildRows(d) {
     parts.push(text(COLS - 3 - commit.when.length, commit.when, C.muted));
     out(parts);
   });
+  if (d.writing.length) {
+    gapRow();
+    cmd('writing');
+    d.writing.forEach((post, i) => {
+      const room = COLS - 11 - post.when.length;
+      rows.push({ type: 'out', parts: [
+        text(2, i === 0 ? G.tree : ' ', C.slate),
+        text(4, G.done, C.peri),
+        text(6, clip(post.title, room), C.white),
+        text(COLS - 3 - post.when.length, post.when, C.muted),
+      ] });
+    });
+  }
   gapRow();
 
   rows.push({

@@ -3,6 +3,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { collect } from './data.mjs';
+import { latestWriting } from './articles.mjs';
 import { buildRows } from './layout.mjs';
 import { renderCard } from './svg.mjs';
 
@@ -23,9 +24,10 @@ if (!token) {
 const anim = JSON.parse(readFileSync(join(root, 'assets', 'art.json'), 'utf8'));
 const font = readFileSync(join(root, 'assets', 'meslo-subset.woff2')).toString('base64');
 
-const data = await collect({ token, login });
+const [data, writing] = await Promise.all([collect({ token, login }), latestWriting()]);
+data.writing = writing;
 const svg = renderCard(buildRows(data), anim, font);
 
 mkdirSync(dirname(out), { recursive: true });
 writeFileSync(out, svg);
-console.log(`${out} — ${(svg.length / 1024).toFixed(1)} KB (${data.contributions} contributions, ${data.langs.length} languages)`);
+console.log(`${out} — ${(svg.length / 1024).toFixed(1)} KB (${data.contributions} contributions, ${data.langs.length} languages, ${data.writing.length} posts)`);
