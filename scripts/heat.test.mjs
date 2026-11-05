@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { logLevel, calendarStats } from './heat.mjs';
+import { logLevel, calendarStats, monthTrend } from './heat.mjs';
 
 // The bug this exists for: one 472-commit day made a normal 5-commit day the darkest tone.
 test('an outlier day does not flatten ordinary days to the lowest level', () => {
@@ -20,4 +20,10 @@ test('an empty today does not reset the current streak', () => {
   assert.equal(s.longest, 2);
   assert.equal(s.active, 3);
   assert.equal(s.peakMonth, 'Nov');
+});
+
+test('trend compares the last two complete months, not the one in progress', () => {
+  const day = (date, count) => ({ date, count, weekday: 0 });
+  const weeks = [[day('2026-09-10', 100), day('2026-10-10', 250), day('2026-11-02', 1)]];
+  assert.deepEqual(monthTrend(weeks), { month: 'Oct', count: 250, prevMonth: 'Sep', pct: 150 });
 });
