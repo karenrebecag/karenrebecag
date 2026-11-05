@@ -52,3 +52,23 @@ export function calendarStats(weeks) {
 
   return { active: days.filter(d => d.count > 0).length, longest, current, peakMonth };
 }
+
+// Compares the last two complete months: the month in progress would always
+// read as a drop for the first weeks.
+export function monthTrend(weeks) {
+  const days = weeks.flat();
+  if (!days.length) return null;
+  const totals = new Map();
+  for (const d of days) totals.set(d.date.slice(0, 7), (totals.get(d.date.slice(0, 7)) ?? 0) + d.count);
+  const shift = (key, n) => {
+    const dt = new Date(`${key}-01T00:00:00Z`);
+    dt.setUTCMonth(dt.getUTCMonth() + n);
+    return dt.toISOString().slice(0, 7);
+  };
+  const current = days.at(-1).date.slice(0, 7);
+  const last = shift(current, -1), prev = shift(current, -2);
+  const count = totals.get(last), prevCount = totals.get(prev);
+  if (count === undefined || !prevCount) return null;
+  const label = key => MONTHS[Number(key.slice(5, 7)) - 1];
+  return { month: label(last), count, prevMonth: label(prev), pct: Math.round((100 * (count - prevCount)) / prevCount) };
+}

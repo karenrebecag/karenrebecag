@@ -30,4 +30,18 @@ const svg = renderCard(buildRows(data), anim, font);
 
 mkdirSync(dirname(out), { recursive: true });
 writeFileSync(out, svg);
+
+// The alt text is what screen readers and search engines get instead of the
+// card, so it is regenerated with the same numbers rather than left hand-written.
+if (!process.env.CARD_OUT) {
+  const readme = join(root, 'README.md');
+  const nf = n => n.toLocaleString('en-US');
+  const alt = `Terminal card: ${nf(data.repos)} repos, ${nf(data.commits)} commits, ${nf(data.prs)} PRs, ` +
+    `${nf(data.contributions)} contributions in 12 months, top languages ${data.langs.map(l => l.name).join(', ')}`;
+  const safe = alt.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+  const before = readFileSync(readme, 'utf8');
+  const after = before.replace(/(<img src="assets\/terminal\.svg"[^>]*?alt=")[^"]*(")/, `$1${safe}$2`);
+  if (after === before && !before.includes(safe)) throw new Error('README card <img> not found; alt text not updated');
+  writeFileSync(readme, after);
+}
 console.log(`${out} — ${(svg.length / 1024).toFixed(1)} KB (${data.contributions} contributions, ${data.langs.length} languages, ${data.writing.length} posts)`);

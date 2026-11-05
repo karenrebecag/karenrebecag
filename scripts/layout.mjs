@@ -1,5 +1,5 @@
 import { C, G, ICO, CW, CH, HEAT } from './theme.mjs';
-import { heatGrid, calendarStats, LEVELS } from './heat.mjs';
+import { heatGrid, calendarStats, monthTrend, LEVELS } from './heat.mjs';
 
 const COLS = 68;        // terminal width, in cells
 const BAR = 20;         // language bar width, in cells
@@ -115,6 +115,22 @@ export function buildRows(d) {
       fc += value.length + 1 + label.length + 1;
     });
     out(factParts);
+    const tr = monthTrend(d.calendar);
+    if (tr) {
+      const count = nf(tr.count);
+      const delta = `${tr.pct >= 0 ? '+' : ''}${nf(tr.pct)}%`;
+      let tc = HEAT_COL;
+      const trendParts = [text(tc, count, C.white, true)];
+      tc += count.length + 1;
+      trendParts.push(text(tc, `in ${tr.month}`, C.slate));
+      tc += 3 + tr.month.length + 1;
+      trendParts.push(text(tc, G.dot, C.muted));
+      tc += 2;
+      trendParts.push(text(tc, delta, tr.pct >= 0 ? C.green : C.pink, true));
+      tc += delta.length + 1;
+      trendParts.push(text(tc, `vs ${tr.prevMonth}`, C.slate));
+      out(trendParts);
+    }
     gapRow();
   }
 
