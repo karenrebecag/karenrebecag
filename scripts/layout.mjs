@@ -60,7 +60,7 @@ export function buildRows(d) {
 
   cmd('whoami');
   out([text(2, d.name, C.white, true),
-       text(4 + d.name.length, `${G.dot} Frontend & Design Systems Engineer`, C.slate)]);
+       text(4 + d.name.length, `${G.dot} builds experiments, ships some of them`, C.slate)]);
   gapRow();
 
   cmd('gh api /user');
