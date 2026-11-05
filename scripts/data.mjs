@@ -5,7 +5,7 @@ const QUERY = `query($login:String!){
     contributionsCollection{
       totalCommitContributions restrictedContributionsCount
       totalPullRequestContributions totalRepositoriesWithContributedCommits
-      contributionCalendar{ totalContributions }
+      contributionCalendar{ totalContributions weeks{ contributionDays{ date contributionCount weekday } } }
     }
     owned:repositories(ownerAffiliations:OWNER,isFork:false,first:1){ totalCount }
     stars:repositories(ownerAffiliations:OWNER,isFork:false,first:100,orderBy:{field:STARGAZERS,direction:DESC}){
@@ -88,6 +88,8 @@ export async function collect({ token, login, now = new Date(), langCount = 5, c
     prs: cc.totalPullRequestContributions,
     contributedTo: cc.totalRepositoriesWithContributedCommits,
     contributions: cc.contributionCalendar.totalContributions,
+    calendar: cc.contributionCalendar.weeks.map(w =>
+      w.contributionDays.map(d => ({ date: d.date, count: d.contributionCount, weekday: d.weekday }))),
     langs: topLanguages(u.langSrc.nodes, langCount),
     recent,
   };

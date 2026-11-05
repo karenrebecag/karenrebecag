@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Test
+        run: node --test scripts/*.test.mjs
+
       - name: Render card
         # github.token only sees public activity, which drops private contributions
         # from the totals. CARD_TOKEN (a PAT with read:user) keeps them counted.

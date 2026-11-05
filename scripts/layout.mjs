@@ -1,8 +1,14 @@
-import { C, G, ICO } from './theme.mjs';
+import { C, G, ICO, CW, CH, HEAT } from './theme.mjs';
+import { heatGrid, calendarStats, LEVELS } from './heat.mjs';
 
 const COLS = 68;        // terminal width, in cells
 const BAR = 20;         // language bar width, in cells
 const NAME_W = 12;      // language name column
+const HEAT_ROWS = 4;    // terminal rows the 7-day grid spans
+const PITCH = (HEAT_ROWS * CH) / 7;
+const SQ = PITCH - 2;
+const HEAT_COL = 4;
+const HEAT_MARGIN = CH / 2;
 
 const nf = n => n.toLocaleString('en-US');
 const pad = (s, n) => s.length >= n ? s : s + ' '.repeat(n - s.length);
@@ -75,6 +81,42 @@ export function buildRows(d) {
   }
   out(statParts);
   gapRow();
+
+  if (d.calendar?.length) {
+    cmd('contributions --scale log');
+    const { cells, months } = heatGrid(d.calendar);
+    rows.push({ type: 'out', parts: [{
+      kind: 'squares', col: HEAT_COL, dy: HEAT_MARGIN, size: SQ,
+      items: cells.map(c => ({ x: c.week * PITCH, y: c.weekday * PITCH, fill: HEAT[c.level] })),
+    }] });
+    // One extra row splits into equal margins above and below the grid.
+    for (let i = 0; i < HEAT_ROWS; i++) gapRow();
+    out(months.map(m => text(HEAT_COL + (m.week * PITCH) / CW, m.label, C.slate)));
+    const legendCol = HEAT_COL + (d.calendar.length * PITCH) / CW - 10 - ((LEVELS + 1) * PITCH) / CW;
+    out([
+      text(HEAT_COL, 'log scale', C.muted),
+      text(legendCol - 5, 'less', C.slate),
+      { kind: 'squares', col: legendCol, dy: (CH - SQ) / 2, size: SQ,
+        items: HEAT.map((fill, i) => ({ x: i * PITCH, y: 0, fill })) },
+      text(legendCol + ((LEVELS + 1) * PITCH) / CW + 0.5, 'more', C.slate),
+    ]);
+    const st = calendarStats(d.calendar);
+    const facts = [
+      [nf(st.active), 'active days'],
+      [`${st.longest}d`, 'best streak'],
+      [`${st.current}d`, 'streak now'],
+      ...(st.peakMonth ? [['peak', st.peakMonth]] : []),
+    ];
+    let fc = HEAT_COL;
+    const factParts = [text(2, G.tree, C.slate)];
+    facts.forEach(([value, label], i) => {
+      if (i) { factParts.push(text(fc, G.dot, C.muted)); fc += 2; }
+      factParts.push(text(fc, value, C.white, true), text(fc + value.length + 1, label, C.slate));
+      fc += value.length + 1 + label.length + 1;
+    });
+    out(factParts);
+    gapRow();
+  }
 
   cmd('languages');
   for (const lang of d.langs) {

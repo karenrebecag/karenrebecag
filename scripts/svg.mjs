@@ -37,6 +37,12 @@ function renderPart(part, y) {
     return `<rect x="${px(x)}" y="${px(y * CH)}" width="${px(part.str.length * CW)}" height="${px(CH)}" fill="${part.bg}"/>` +
            `<text x="${px(x)}" y="${px(y * CH + BASE)}" ${fit(part.str.length)} fill="${part.fg}">${esc(part.str)}</text>`;
   }
+  // Drawn as rects, not glyphs: a font fallback cannot distort the grid.
+  if (part.kind === 'squares') {
+    const x0 = part.col * CW, y0 = y * CH + part.dy;
+    return part.items.map(s =>
+      `<rect x="${px(x0 + s.x)}" y="${px(y0 + s.y)}" width="${px(part.size)}" height="${px(part.size)}" rx="2" fill="${s.fill}"/>`).join('');
+  }
   if (part.kind === 'cursor') {
     return `<rect class="cur" x="${px(part.col * CW)}" y="${px(y * CH + CH * 0.14)}" width="${px(CW)}" height="${px(CH * 0.78)}" fill="${C.cyan}"/>`;
   }

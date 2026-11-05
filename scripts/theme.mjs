@@ -14,6 +14,11 @@ export const C = {
   bg:     '#0d1117', // matches GitHub dark so the card reads as a bare terminal
 };
 
+// Heatmap ramp, empty then levels 1-4: the language bars' muted track rising to
+// orchid, so the grid reads as part of the same prompt. 60 and 141 are the
+// xterm-256 steps between 61 and 177.
+export const HEAT = ['#1c2030', '#5f5f87', C.muted, '#af87ff', C.orchid];
+
 // MesloLGS Nerd Font Mono advances 0.6em; the terminal cell is 1.2em tall.
 export const FS = 16;
 export const CW = FS * 0.6;
