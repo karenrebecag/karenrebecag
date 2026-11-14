@@ -3,7 +3,7 @@
 <!-- Card rendered daily by .github/workflows/terminal-card.yml from the GitHub API
      and the portfolio sitemap. ASCII art converted with asciimotion.
      Type: MesloLGS NF (Apache 2.0, see assets/MESLO-LICENSE.txt). -->
-<img src="assets/terminal.svg" width="100%" alt="Terminal card: 64 repos, 5,239 commits, 2,510 PRs, 7,886 contributions in 12 months, top languages TypeScript, Swift, HTML, CSS, JavaScript" />
+<img src="assets/terminal.svg" width="100%" alt="Terminal card: 64 repos, 5,258 commits, 2,529 PRs, 7,925 contributions in 12 months, top languages TypeScript, Swift, HTML, CSS, JavaScript" />
 
 <a href="https://www.linkedin.com/in/karen-rebeca-ortiz-b5a860282"><img src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>
 <a href="https://karenrebecaortiz.com/"><img src="assets/btn-portfolio.svg" alt="Portfolio: karenrebecaortiz.com" /></a>
